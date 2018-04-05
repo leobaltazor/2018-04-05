@@ -1,0 +1,24 @@
+img{
+	width: 100px;
+	height: 100%;
+}
+
+.clock {
+	font-size: 50px;
+	transform: translateX(-50%);
+	position: absolute;
+	top: 100px;
+	left: 50%;
+}
+
+.zero::before {
+	content: "0";
+}
+
+.color-red {
+	color: red;
+}
+
+.big-font {
+	font-size: 28px;
+}
